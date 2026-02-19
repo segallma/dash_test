@@ -9,12 +9,12 @@
 # ignore entire trees recursively
 
 
-/data_processed/**
+/data/**
 
 # un-ignore directories inside those trees so git will traverse into them
 
 
-!/data_processed/**/
+!/data/**/
 
 # un-ignore any .gitkeep anywhere
 !**/.gitkeep
