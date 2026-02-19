@@ -1,0 +1,20 @@
+# ignore cruft at repo root
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.megaignore
+.vscode
+
+# ignore entire trees recursively
+
+
+/data_processed/**
+
+# un-ignore directories inside those trees so git will traverse into them
+
+
+!/data_processed/**/
+
+# un-ignore any .gitkeep anywhere
+!**/.gitkeep
