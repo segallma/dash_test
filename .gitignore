@@ -1,10 +1,9 @@
 # ignore cruft at repo root
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+
 .megaignore
 .vscode
+__pycache__/
+*.pyc
 
 # ignore entire trees recursively
 
