@@ -21,19 +21,32 @@ app.layout = html.Div([
 
     html.H1("Rates by year"),
 
-    dcc.Dropdown(
+    html.Div([
+
+        html.Label("Select Group(s):"),
+        
+        dcc.Dropdown(
         id = "group-dropdown",
         options = df["group"].unique(),
         value = ["all groups"],
-        multi = True),
+        multi = True)
+        ]),
+
+    html.Div([
+
+    html.Label("Select sex:"),
 
     dcc.Checklist(
         id = "sex-checklist",
         options = df["sex"].unique(),
         value = ["both sexes"],
-        inline = True),
+        inline = True)
+        ]),
+
+    html.Div([
 
     dcc.Graph(id = "trend-graph")
+    ])
 ])
 
 # Registering a callback so whenever a property of the input component changes, Dash calls the callback function 
@@ -65,4 +78,4 @@ def update_graph(selected_groups, selected_sexes):
 
 # Start the server
 if __name__ == "__main__":
-    app.run_server(debug = True)
+    app.run_server(debug = False)
