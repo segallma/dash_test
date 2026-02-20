@@ -22,11 +22,18 @@ app.layout = html.Div([
     html.H1("Rates by year"),
 
     dcc.Dropdown(
-        id = 'group-dropdown',
-        options = df['group'].unique(),
-        value = "all groups"),
+        id = "group-dropdown",
+        options = df["group"].unique(),
+        value = ["all groups"],
+        multi = True),
 
-    dcc.Graph(id='trend-graph')
+    dcc.Checklist(
+        id = "sex-checklist",
+        options = df["sex"].unique(),
+        value = ["both sexes"],
+        inline = True),
+
+    dcc.Graph(id = "trend-graph")
 ])
 
 # Registering a callback so whenever a property of the input component changes, Dash calls the callback function 
@@ -34,22 +41,27 @@ app.layout = html.Div([
 
 
 @app.callback(
-    Output('trend-graph', 'figure'), # what to update: component, property of the component
-    Input('group-dropdown', 'value') # what to watch for: component, property of the component 
+    Output("trend-graph", "figure"), # what to update: component, property of the component
+    Input("group-dropdown", "value"), # what to watch for: component, property of the component 
+    Input("sex-checklist", "value")
 )
 
 # This  is the callback function
 
-def update_graph(selected_group):
+def update_graph(selected_groups, selected_sexes):
     # Filter dataframe based on the selected group
-    filtered_df = df[df['group'] == selected_group]
+    filtered_df = df[
+        df["group"].isin(selected_groups) &
+        df["sex"].isin(selected_sexes)
+        ]
 
     # Call your plot function
     return lineplot(
         df = filtered_df,
-        x_col = 'year',    
-        y_col = 'rate',     
-        color_col = 'group')
+        x_col = "year",    
+        y_col = "rate",     
+        color_col = "group",
+        line_col = "sex")
 
 # Start the server
 if __name__ == "__main__":
