@@ -1,0 +1,169 @@
+﻿year_status;year;group;sex;cases;rate
+complete;2019;A;both sexes;7;
+complete;2020;A;both sexes;9;15.99
+complete;2021;A;both sexes;6;11.65
+complete;2022;A;both sexes;14;24.83
+complete;2023;A;both sexes;4;7.35
+complete;2024;A;both sexes;14;23.10
+partial;2025;A;both sexes;;
+complete;2019;all groups;both sexes;213;4.02
+complete;2020;all groups;both sexes;298;5.61
+complete;2021;all groups;both sexes;388;7.32
+complete;2022;all groups;both sexes;330;6.21
+complete;2023;all groups;both sexes;365;6.39
+complete;2024;all groups;both sexes;412;7.21
+partial;2025;all groups;both sexes;185;3.24
+complete;2019;B;both sexes;15;7.02
+complete;2020;B;both sexes;10;4.64
+complete;2021;B;both sexes;9;4.23
+complete;2022;B;both sexes;10;4.65
+complete;2023;B;both sexes;18;5.78
+complete;2024;B;both sexes;12;3.70
+partial;2025;B;both sexes;;
+complete;2019;C;both sexes;45;26.25
+complete;2020;C;both sexes;60;41.10
+complete;2021;C;both sexes;85;58.80
+complete;2022;C;both sexes;58;29.46
+complete;2023;C;both sexes;69;24.87
+complete;2024;C;both sexes;84;29.13
+partial;2025;C;both sexes;41;9.70
+complete;2019;D;both sexes;48;46.17
+complete;2020;D;both sexes;32;25.38
+complete;2021;D;both sexes;52;41.40
+complete;2022;D;both sexes;15;19.68
+complete;2023;D;both sexes;20;13.70
+complete;2024;D;both sexes;60;44.72
+partial;2025;D;both sexes;35;26.21
+complete;2019;E;both sexes;51;20.27
+complete;2020;E;both sexes;22;8.74
+complete;2021;E;both sexes;36;14.48
+complete;2022;E;both sexes;45;18.05
+complete;2023;E;both sexes;59;17.22
+complete;2024;E;both sexes;84;24.64
+partial;2025;E;both sexes;;
+complete;2019;F;both sexes;9;
+complete;2020;F;both sexes;10;
+complete;2021;F;both sexes;6;6.17
+complete;2022;F;both sexes;8;8.07
+complete;2023;F;both sexes;23;8.19
+complete;2024;F;both sexes;10;3.68
+partial;2025;F;both sexes;;
+complete;2019;G;both sexes;129;2.85
+complete;2020;G;both sexes;92;2.09
+complete;2021;G;both sexes;95;2.14
+complete;2022;G;both sexes;94;2.13
+complete;2023;G;both sexes;96;2.15
+complete;2024;G;both sexes;103;2.32
+partial;2025;G;both sexes;46;0.97
+complete;2019;A;male;8;
+complete;2020;A;male;5;11.46
+complete;2021;A;male;3;9.20
+complete;2022;A;male;6;17.38
+complete;2023;A;male;0;0.00
+complete;2024;A;male;4;13.21
+partial;2025;A;male;;
+complete;2019;all groups;male;106;3.98
+complete;2020;all groups;male;39;1.45
+complete;2021;all groups;male;85;3.18
+complete;2022;all groups;male;48;1.80
+complete;2023;all groups;male;58;2.05
+complete;2024;all groups;male;66;2.31
+partial;2025;all groups;male;24;0.86
+complete;2019;B;male;4;
+complete;2020;B;male;1;0.95
+complete;2021;B;male;6;5.40
+complete;2022;B;male;2;1.41
+complete;2023;B;male;7;4.17
+complete;2024;B;male;0;0.00
+partial;2025;B;male;;
+complete;2019;C;male;15;
+complete;2020;C;male;11;
+complete;2021;C;male;12;
+complete;2022;C;male;21;
+complete;2023;C;male;16;11.85
+complete;2024;C;male;19;13.91
+partial;2025;C;male;5;3.84
+complete;2019;D;male;26;
+complete;2020;D;male;11;
+complete;2021;D;male;24;
+complete;2022;D;male;7;
+complete;2023;D;male;11;15.15
+complete;2024;D;male;15;20.05
+partial;2025;D;male;20;27.56
+complete;2019;E;male;5;3.86
+complete;2020;E;male;3;2.86
+complete;2021;E;male;1;1.11
+complete;2022;E;male;2;1.99
+complete;2023;E;male;6;3.89
+complete;2024;E;male;4;2.75
+partial;2025;E;male;;
+complete;2019;F;male;2;
+complete;2020;F;male;1;
+complete;2021;F;male;0;0.00
+complete;2022;F;male;4;11.47
+complete;2023;F;male;3;9.29
+complete;2024;F;male;4;13.05
+partial;2025;F;male;0;0.00
+complete;2019;G;male;27;1.16
+complete;2020;G;male;8;0.37
+complete;2021;G;male;17;0.76
+complete;2022;G;male;8;0.35
+complete;2023;G;male;20;0.91
+complete;2024;G;male;7;0.34
+partial;2025;G;male;6;0.25
+complete;2019;A;female;4;
+complete;2020;A;female;7;24.07
+complete;2021;A;female;4;15.73
+complete;2022;A;female;4;13.24
+complete;2023;A;female;3;10.11
+complete;2024;A;female;8;26.38
+partial;2025;A;female;;
+complete;2019;all groups;female;223;8.47
+complete;2020;all groups;female;259;9.84
+complete;2021;all groups;female;251;9.53
+complete;2022;all groups;female;223;8.46
+complete;2023;all groups;female;306;10.65
+complete;2024;all groups;female;292;10.18
+partial;2025;all groups;female;154;5.35
+complete;2019;B;female;6;5.97
+complete;2020;B;female;6;5.47
+complete;2021;B;female;5;4.51
+complete;2022;B;female;12;11.30
+complete;2023;B;female;7;4.34
+complete;2024;B;female;11;7.17
+partial;2025;B;female;;
+complete;2019;C;female;46;
+complete;2020;C;female;62;
+complete;2021;C;female;91;
+complete;2022;C;female;60;
+complete;2023;C;female;39;26.76
+complete;2024;C;female;50;34.30
+partial;2025;C;female;23;16.10
+complete;2019;D;female;14;
+complete;2020;D;female;12;
+complete;2021;D;female;14;
+complete;2022;D;female;8;
+complete;2023;D;female;25;34.29
+complete;2024;D;female;37;51.07
+partial;2025;D;female;7;
+complete;2019;E;female;46;34.64
+complete;2020;E;female;22;16.51
+complete;2021;E;female;47;35.63
+complete;2022;E;female;42;31.54
+complete;2023;E;female;47;26.37
+complete;2024;E;female;71;40.01
+partial;2025;E;female;37;20.60
+complete;2019;F;female;8;
+complete;2020;F;female;9;
+complete;2021;F;female;4;7.21
+complete;2022;F;female;7;14.91
+complete;2023;F;female;21;43.61
+complete;2024;F;female;9;18.17
+partial;2025;F;female;6;8.65
+complete;2019;G;female;52;2.34
+complete;2020;G;female;63;2.90
+complete;2021;G;female;98;4.47
+complete;2022;G;female;51;2.36
+complete;2023;G;female;113;5.07
+complete;2024;G;female;79;3.56
+partial;2025;G;female;58;2.62

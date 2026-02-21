@@ -5,15 +5,5 @@
 __pycache__/
 *.pyc
 
-# ignore entire trees recursively
-
-
-/data/**
-
-# un-ignore directories inside those trees so git will traverse into them
-
-
-!/data/**/
-
 # un-ignore any .gitkeep anywhere
 !**/.gitkeep
