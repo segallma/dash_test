@@ -48,4 +48,6 @@ COPY . .
 EXPOSE 8050
 
 # Run the application.
-CMD ["gunicorn", "-b", "0.0.0.0:8050", "app:server"]
+
+ENV PORT=8050
+CMD gunicorn -b 0.0.0.0:$PORT app:server
